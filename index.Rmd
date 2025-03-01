@@ -50,7 +50,7 @@ output:
 
     /* Make the image scroll without needing extra content */
     body {
-        background-image: url('images/okinawa_blend-width=200%_generated.png'); /* Update with your image path */
+        background-image: url('images/okinawa_blend_generated.png'); /* Update with your image path */
         background-size: 95%;
         background-position: top;
         background-repeat: no-repeat;
