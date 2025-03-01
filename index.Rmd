@@ -54,6 +54,7 @@ output:
         background-size: 95%;
         background-position: top;
         background-repeat: no-repeat;
+        background-color: transparent;
         background-attachment: scroll; /* Make the image scroll */
         color: white;
         font-size: 2em;
