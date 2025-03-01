@@ -49,7 +49,7 @@ padding-right: 20px;
         
         /* Body styling with a background image */
         body {
-        background-image: url('images/okinawa_coral.png'); /* Update with your image path */
+        background-image: url('images/okinawa_cora.png'); /* Update with your image path */
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
