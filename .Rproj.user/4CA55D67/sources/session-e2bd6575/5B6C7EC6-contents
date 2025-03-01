@@ -1,0 +1,19 @@
+name: "cBee's website~"
+output_dir: "docs"
+navbar:
+  title: "cBee's website~"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Blog"
+      href: blog.html  
+    - text: "Case Studies"
+      href: case_studies.html
+    - text: "Contact"
+      href: contact.html
+    
+output:
+  html_document:
+    theme: cerulean  
+
+  

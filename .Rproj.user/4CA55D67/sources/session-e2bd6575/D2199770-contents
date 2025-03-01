@@ -1,0 +1,8 @@
+rmarkdown::render_site()
+library(selectr)
+install.packages("IntersectionObserver")
+install.packages("aos")
+library(shiny)
+library(aos)
+library(bslib)
+library(miniUI)

@@ -1,0 +1,125 @@
+---
+title: ""
+output:
+  html_document:
+    includes:
+      before_body: _site/blog.html
+---
+<head>
+    <style>
+        /* Title Container Styling */
+        .title-container {
+        width: 30%;
+        height: auto;
+        background-image: url('images/cloud_title2.png');
+        background-color: transparent !important;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(0, 100, 250, 0.8);
+        font-size: 1em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+        border: none;
+        
+padding-right: 20px;
+        }
+    </style>
+
+<head>
+ <style>
+        /* Reset default margins & paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            scroll-behavior: smooth; /* Optional: Smooth scrolling */
+        }
+        
+        /* Body styling with a background image */
+        body {
+        background-image: url('images/Shisa.jpg'); /* Update with your image path */
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: scroll; /* Make the image scroll */
+        color: white;
+        font-size: 2em;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        overflow-y: scroll;
+        }
+
+        /* Blog Grid Layout */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            width: 100%;
+            margin: 200px auto; /* Increased margin to bring grid lower */
+        }
+
+        /* Blog Card Styles */
+        .blog-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Image Styling */
+        .blog-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Content within Blog Card */
+        .blog-card .content {
+            padding: 15px;
+        }
+
+        /* Title and Description */
+        .blog-card h3 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .blog-card p {
+            margin: 0;
+            color: #666;
+            font-size: 1em;
+        }
+
+        /* Hover Effects */
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+  </style>
+</head>
+<body>
+<div class="blog-grid">
+<a href="HowTo_Web.html" class="blog-card">
+<img src="images/HowTo_Website.png" alt="Blog Post 1">
+<div class="content">
+<h3>How Did I Create This Website???</h3>
+<p>I'll be going over how I created this website with duct tape and glue. Read more...</p>
+</div>
+</div>
+</body>
+</html>

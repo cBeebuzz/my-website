@@ -1,0 +1,119 @@
+---
+title: ""
+output:
+  html_document:
+    includes:
+      before_body: _site/contact.html
+---
+<head>
+    <style>
+        /* Title Container Styling */
+        .title-container {
+        width: 30%;
+        height: auto;
+        background-image: url('images/cloud_title4.png');
+        background-color: transparent !important;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(0, 100, 250, 0.8);
+        font-size: 1em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+        border: none;
+        
+padding-right: 20px;
+        }
+    </style>
+
+<head>
+  <style>
+    /* Reset default margins & paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        scroll-behavior: smooth; /* Optional: Smooth scrolling */
+    }
+    
+
+    /* Make the image scroll without needing extra content */
+    body {
+        background-image: url('images/tokashiki.png'); /* Update with your image path */
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: scroll; /* Make the image scroll */
+        color: white;
+        font-size: 2em;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        height: 100vh; /* Create scrolling effect without extra content */
+        overflow-y: scroll; /* Enable vertical scrolling */
+        class="main-content"
+    }
+    
+  </style>
+</head>
+<html lang="en">
+<head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 50px;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            align-items: center;
+        }
+        .contact-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+            transition: transform 0.2s ease;
+        }
+        .contact-link img {
+            width: 50px;
+            height: 50px;
+            transition: transform 0.3s ease;
+        }
+        .contact-link:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="contact-container">
+<a href="mailto:cjbethancourt2@gmail.com" class="contact-link" target="_blank">
+            <img src="images/gmail_logo.png" alt="Gmail">
+            <span>Gmail</span>
+</a>
+<a href="https://github.com/cBeebuzz" class="contact-link" target="_blank">
+            <img src="images/github_logo.png" alt="GitHub">
+            <span>GitHub</span>
+</a>
+<a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2FTafhjY5SZWpOmEndEIlUQ%3D%3D" class="contact-link" target="_blank">
+            <img src="images/linkedin_logo.png" alt="LinkedIn">
+            <span>LinkedIn</span>
+</a>
+</div>
+</body>
+</html>
+    
